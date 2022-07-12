@@ -30,3 +30,9 @@ export function getPutSignedUrl(key: string): string {
     Expires: signedUrlExpireSeconds,
   });
 }
+
+//to run locally
+// export const credentials = new AWS.Credentials({
+//   accessKeyId: config.aws_access_key,
+//   secretAccessKey: config.aws_secret,
+// });
