@@ -1,6 +1,6 @@
 ## Architecture
 
-![Architecture](./screenshots/Architecture.jpg)
+![Architecture](/screenshots/Architecture.jpg)
 
 The front and backend is running on AMS (Amazon Web Services).
 
