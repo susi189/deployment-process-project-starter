@@ -6,18 +6,18 @@ This project uses CircleCi to create a pipeline.
 
 The jobs and workflows are defined in **config.yml** file.
 
-![Pipeline](./screenshots/Pipleine.jpg)
+![Pipeline](/screenshots/Pipleine.jpg)
 
 1. When changes are pushed to github this triggers the pipeline.
 
 2. In the **build** process the environment is prepared, Node and other dependencies are installed and the build scripts are executed. In case of an error the pipeline is stopped and the error shown. If all is successful the app is production ready.
 
-![build](./screenshots/build.png)
+![build](/screenshots/build.png)
 
 3. In the **hold** process the approval is needed. Once approved the pipeline is moving to the deployment process.
 
 4. In the **deploy** process the deploy scripts are executed, and EB is updating the environment. When all is successful the app is deployed and the app includes all changes visible to the user.
 
-![deploy](./screenshots/deploy.png)
+![deploy](/screenshots/deploy.png)
 
-![deployed project](./screenshots/deployed-pr.png)
+![deployed project](/screenshots/deployed-pr.png)
