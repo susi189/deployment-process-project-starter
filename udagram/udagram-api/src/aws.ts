@@ -32,7 +32,7 @@ export function getPutSignedUrl(key: string): string {
 }
 
 //to run locally
-// export const credentials = new AWS.Credentials({
-//   accessKeyId: config.aws_access_key,
-//   secretAccessKey: config.aws_secret,
-// });
+export const credentials = new AWS.Credentials({
+  accessKeyId: config.aws_access_key,
+  secretAccessKey: config.aws_secret,
+});
