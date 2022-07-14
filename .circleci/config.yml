@@ -7,7 +7,6 @@ orbs:
   # different jobs are called later in the workflows sections
 jobs:
   build:
-    context: myEnv
     docker:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:14.15"
@@ -51,6 +50,7 @@ jobs:
             npm run api:build
   # deploy step will run only after manual approval
   deploy:
+    context: myEnv
     docker:
       - image: "cimg/base:stable"
       # more setup needed for aws, node, elastic beanstalk
