@@ -21,3 +21,5 @@ The jobs and workflows are defined in **config.yml** file.
 ![deploy](/screenshots/deploy.png)
 
 ![deployed project](/screenshots/deployed-pr.png)
+
+![env variables](/screenshots/ev.png)
