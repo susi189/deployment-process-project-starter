@@ -7,6 +7,7 @@ orbs:
   # different jobs are called later in the workflows sections
 jobs:
   build:
+    context: myEnv
     docker:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:14.15"
@@ -62,7 +63,6 @@ jobs:
       - run:
           name: Deploy App
           #Install, build, deploy in both apps
-          context: myEnv
           command: |
             echo "# TODO: Install, build, deploy in both apps"
             npm run deploy
