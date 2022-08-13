@@ -4,7 +4,7 @@ In this project I focused on deploying a provided full stack application - Udagr
 
 ## Project Link
 
-[Udagram](http://udagram4563728948.s3-website-us-east-1.amazonaws.com/)
+upon request
 
 ## Functionality
 
